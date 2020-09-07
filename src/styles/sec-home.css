@@ -1,0 +1,21 @@
+#home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-container h1 {
+  color: var(--bg-color-pink);
+  margin-bottom: 3rem;
+}
+
+.home-container img {
+  width: 70%;
+}
